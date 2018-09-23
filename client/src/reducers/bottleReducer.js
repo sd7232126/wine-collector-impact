@@ -20,7 +20,7 @@ export default function(state = {}, action) {
       return { ...state, [action.payload._id]: action.payload };
     // When searching bottle by keyword, filter the list and update active bottles in state
     case SEARCH_BOTTLE:
-      const keyword = action.payload;
+      const keyword = action.payload.toLowerCase();
       const results = _.values(state.all).filter((bottle) => (
         !(
           bottle.name.toLowerCase().indexOf(keyword) === -1 &&
