@@ -16,16 +16,20 @@ A wine collection management tool built on React
 - User can logged in with Google to manage their wine collections with creating/updating/viewing functionality.
 - User Interface is more friendly on a mobile like size screen.
 - Wine collections data are stored on mLab (https://mlab.com/)
+- Production App: https://wine-collector-impact.herokuapp.com/
 
 ## Thoughts on Future Features
 - Sorting function on the list view
 - Deploy to Heroku as production env
 - Use proper form components for input like rating, comment (with validations)
 - More styling
+- Be able to save locally without loggin and sync once loggin
+- Auth validation on same pages
+- Local persistent for input form
 - To be continued
 
 ## Thoughts on Refactoring
-- To do
-
-## Comments
-- To do
+- Action creators can be divided into different files
+- More error handling
+- Better API handling with differnt response codes
+- To be continued
