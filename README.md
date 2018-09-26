@@ -19,13 +19,14 @@ A wine collection management tool built on React
 - Production App: https://wine-collector-impact.herokuapp.com/
 
 ## Thoughts on Future Features
-- Sorting function on the list view
+- Sorting and better filter function on the list view
 - Deploy to Heroku as production env
 - Use proper form components for input like rating, comment (with validations)
 - More styling
 - Be able to save locally without loggin and sync once loggin
 - Auth validation on same pages
 - Local persistent for input form
+- Call external API to get more details of collection e.g. Picture, Description
 - To be continued
 
 ## Thoughts on Refactoring
